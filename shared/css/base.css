@@ -1,0 +1,74 @@
+:root {
+  --satlab-yellow: #ffd000;
+  --satlab-yellow-strong: #f4be00;
+  --ink: #17191c;
+  --graphite: #25282d;
+  --soft-graphite: #3a3f46;
+  --muted: #6b7280;
+  --line: rgba(23, 25, 28, 0.12);
+  --paper: #f6f5f1;
+  --paper-strong: #ffffff;
+  --panel: #202328;
+  --white: #ffffff;
+  --shadow: 0 20px 60px rgba(23, 25, 28, 0.16);
+  --radius: 8px;
+  --max: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Inter, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure {
+  margin-top: 0;
+}
+
+::selection {
+  color: var(--ink);
+  background: var(--satlab-yellow);
+}
